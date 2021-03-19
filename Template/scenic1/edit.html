@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Scenic HTML Template</title>
+
+<!--
+
+Template 2099 Scenic
+
+http://www.tooplate.com/view/2099-scenic
+
+-->
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="css/tooplate-style.css">
+
+    
+    
+    <script type="text/javascript">
+    if (window.FileReader) {
+    
+      var reader = new FileReader(), rFilter = /^(image\/bmp|image\/cis-cod|image\/gif|image\/ief|image\/jpeg|image\/jpeg|image\/jpeg|image\/pipeg|image\/png|image\/svg\+xml|image\/tiff|image\/x-cmu-raster|image\/x-cmx|image\/x-icon|image\/x-portable-anymap|image\/x-portable-bitmap|image\/x-portable-graymap|image\/x-portable-pixmap|image\/x-rgb|image\/x-xbitmap|image\/x-xpixmap|image\/x-xwindowdump)$/i; 
+      
+      reader.onload = function (oFREvent) { 
+        preview = document.getElementById("uploadPreview")
+        preview.src = oFREvent.target.result;  
+        preview.style.display = "block";
+      };  
+  
+      function doTest() {
+        
+        if (document.getElementById("myfile").files.length === 0) { return; }  
+        var file = document.getElementById("myfile").files[0];  
+        if (!rFilter.test(file.type)) { alert("You must select a valid image file!"); return; }  
+        reader.readAsDataURL(file); 
+      }
+        
+  } else {
+    alert("FileReader object not found :( \nTry using Chrome, Firefox or WebKit");
+  }
+    </script>
+    
+    
+</head>
+<body>
+
+<!-- PRE LOADER -->
+<div class="preloader">
+     <div class="spinner">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+
+<!-- MENU -->
+<div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+     <div class="container">
+
+          <!-- NAVBAR HEADER -->
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <!-- lOGO -->
+            <h2>  <input placeholder="Studio Name">  </input> </h2>
+          </div>
+
+          <!-- MENU LINKS -->
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home" class="smoothScroll">Home</a></li>
+                    <li><a href="#about" class="smoothScroll">Studio</a></li>
+                    <li><a href="#team" class="smoothScroll">Our People</a></li>  
+                    <li><a href="#footer" class="smoothScroll">Let's talk</a></li>
+               </ul>
+          </div>
+
+     </div>
+</div>
+
+
+<!-- HOME -->
+<section id="home" class="parallax-section">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-8 col-sm-12">
+                    <div class="home-text">
+                         <h3>  <input placeholder="Studio Tag Line" size="50">  </input> </h3>
+                       
+                         <ul class="section-btn">
+                              <a href="#about" class="smoothScroll"><span data-hover="Discover More">Discover More</span></a>
+                         </ul>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+
+     <!-- Video -->
+     <video controls="" autoplay="" loop="" muted>
+          <source src="videos/video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+     </video>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <div class="about-info">
+                        <h3>Introducing <input placeholder="Studio Name"></input></h3>
+                        <h1><textarea placeholder="Introduction"  cols="50"></textarea> </h1>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- PROJECT -->
+<section id="project" class="parallax-section">
+     <div class="container">
+         <h4>Upload Some Images</h4>
+          <div class="row">
+
+               <div class="col-md-6 col-sm-6">
+                    <!-- PROJECT ITEM -->
+                    <div class="project-item">
+                         <!--<a href="images/project-image1.jpg" class="image-popup"> -->
+                              <p><input type="file" id="myfile" name="myfile" size="30" onchange="doTest()"></p>
+                                <img id="uploadPreview" src="" width="100%" style="display:none" />
+                         
+                              
+                        <!-- </a> -->
+                    </div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <!-- PROJECT ITEM -->
+                    <div class="project-item">
+                           <!--<a href="images/project-image1.jpg" class="image-popup"> -->
+                              <p><input type="file" id="myfile" name="myfile" size="30" onchange="doTest()"></p>
+                                <img id="uploadPreview" src="" width="100%" style="display:none" />
+                         
+                              
+                        <!-- </a> -->
+                    </div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <!-- PROJECT ITEM -->
+                    <div class="project-item">
+                         <!--<a href="images/project-image1.jpg" class="image-popup"> -->
+                              <p><input type="file" id="myfile" name="myfile" size="30" onchange="doTest()"></p>
+                                <img id="uploadPreview" src="" width="100%" style="display:none" />
+                         
+                              
+                        <!-- </a> -->
+                    </div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <!-- PROJECT ITEM -->
+                    <div class="project-item">
+                          <!--<a href="images/project-image1.jpg" class="image-popup"> -->
+                              <p><input type="file" id="myfile" name="myfile" size="30" onchange="doTest()"></p>
+                                <img id="uploadPreview" src="" width="100%" style="display:none" />
+                         
+                              
+                        <!-- </a> -->
+                    </div>
+               </div>               
+
+          </div>
+     </div>
+</section>
+
+
+<!-- TEAM -->
+<section id="team" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-2 col-md-8 col-sm-12">
+                    <!-- SECTION TITLE -->
+                    <div class="section-title">
+                         <h1>Meet Our People</h1>
+                    </div>
+               </div>
+
+               <div class="clearfix"></div>
+
+               <div id="owl-team" class="owl-carousel">
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                               <p><input type="file" id="myfile" name="myfile" size="30" onchange="doTest()"></p>
+                                <img id="uploadPreview" src="" width="100%" style="display:none" />
+                             
+                         </div>
+                        <p><input placeholder="Employee Name"></input></p>
+                         <h3><input placeholder="Employee Post"></input></h3>
+                    </div>
+
+                   <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                               <p><input type="file" id="myfile" name="myfile" size="30" onchange="doTest()"></p>
+                                <img id="uploadPreview" src="" width="100%" style="display:none" />
+                             
+                         </div>
+                        <p><input placeholder="Employee Name"></input></p>
+                         <h3><input placeholder="Employee Post"></input></h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                               <p><input type="file" id="myfile" name="myfile" size="30" onchange="doTest()"></p>
+                                <img id="uploadPreview" src="" width="100%" style="display:none" />
+                             
+                         </div>
+                        <p><input placeholder="Employee Name"></input></p>
+                         <h3><input placeholder="Employee Post"></input></h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                               <p><input type="file" id="myfile" name="myfile" size="30" onchange="doTest()"></p>
+                                <img id="uploadPreview" src="" width="100%" style="display:none" />
+                             
+                         </div>
+                        <p><input placeholder="Employee Name"></input></p>
+                         <h3><input placeholder="Employee Post"></input></h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                               <p><input type="file" id="myfile" name="myfile" size="30" onchange="doTest()"></p>
+                                <img id="uploadPreview" src="" width="100%" style="display:none" />
+                             
+                         </div>
+                        <p><input placeholder="Employee Name"></input></p>
+                         <h3><input placeholder="Employee Post"></input></h3>
+                    </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- CONTACT 
+<section id="contact" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-3 col-md-6 col-sm-12">
+                    <div class="section-title">
+                         <h1>Talk to us!</h1>
+                    </div>
+               </div>
+
+               <div class="clearfix"></div>
+
+               <div class="col-md-offset-2 col-md-8 col-sm-12">
+                   
+                    <form id="contact-form" action="#" method="get" role="form">
+
+                        
+                         <h6 class="text-success">Your message has been sent successfully. </h6>
+                         
+                         
+                         <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
+
+                         <div class="col-md-6 col-sm-6">
+                              <input type="text" class="form-control" id="cf-name" name="cf-name" placeholder="Name">
+                         </div>
+
+                         <div class="col-md-6 col-sm-6">
+                              <input type="email" class="form-control" id="cf-email" name="cf-email" placeholder="Email Address">
+                         </div>
+
+                         <div class="col-md-12 col-sm-12">
+                              <input type="text" class="form-control" id="cf-subject" name="subject" placeholder="Subject">
+                              <textarea class="form-control" rows="5" id="cf-message" name="cf-message" placeholder="Message"></textarea>
+                         </div>
+
+                         <div class="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4">
+                              <div class="section-btn">
+                                   <button type="submit" class="form-control" id="cf-submit" name="submit"><span data-hover="Send Message">Send Message</span></button>
+                              </div>
+                         </div>
+                    </form>
+               </div>
+
+          </div>
+     </div>
+</section>
+-->
+<!-- FOOTER -->
+<footer>
+    <section id="footer" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-5 col-sm-6">
+                   <h2><input placeholder="Studio Name" size="15"></input> </h2>
+                    <p><textarea placeholder="Physical Address" rows="3" cols="40"></textarea> </p>
+                    
+                    
+               </div>
+
+               <div style="float: right" class="col-md-4 col-sm-6">
+                    <div class="footer-info">
+                    	<h2>Keep in touch</h2>
+                         <p><a href="tel:010-090-0780">010-090-0780</a></p>
+                         <p><a href="mailto:info@company.com">info@company.com</a></p>
+                         
+                    </div>
+               </div>
+
+             
+
+               <div class="clearfix"></div>
+
+               <div class="col-md-12 col-sm-12">
+                    <div class="copyright-text">
+                        <p>Copyright © 2018<input placeholder="Studio Name"></input></p>
+                    </div>
+               </div>
+               
+          </div>
+     </div>
+</section>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

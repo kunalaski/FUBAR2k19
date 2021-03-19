@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://www.w3schools.com/w3css/tryw3css_templates_cv.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>CV Template</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="cv_files/w3.css">
+<link rel="stylesheet" href="cv_files/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<style type="text/css">
+:root a[rel="nofollow"],
+:root .tooltip + div[style="height:90px;"],
+:root #mainLeaderboard,
+:root .bottomad
+{ display: none !important; }</style>
+
+<script type="text/javascript">
+    if (window.FileReader) {
+    
+      var reader = new FileReader(), rFilter = /^(image\/bmp|image\/cis-cod|image\/gif|image\/ief|image\/jpeg|image\/jpeg|image\/jpeg|image\/pipeg|image\/png|image\/svg\+xml|image\/tiff|image\/x-cmu-raster|image\/x-cmx|image\/x-icon|image\/x-portable-anymap|image\/x-portable-bitmap|image\/x-portable-graymap|image\/x-portable-pixmap|image\/x-rgb|image\/x-xbitmap|image\/x-xpixmap|image\/x-xwindowdump)$/i; 
+      
+      reader.onload = function (oFREvent) { 
+        preview = document.getElementById("uploadPreview")
+        preview.src = oFREvent.target.result;  
+        preview.style.display = "block";
+      };  
+  
+      function doTest() {
+        
+        if (document.getElementById("myfile").files.length === 0) { return; }  
+        var file = document.getElementById("myfile").files[0];  
+        if (!rFilter.test(file.type)) { alert("You must select a valid image file!"); return; }  
+        reader.readAsDataURL(file); 
+      }
+        
+  } else {
+    alert("FileReader object not found :( \nTry using Chrome, Firefox or WebKit");
+  }
+    </script>
+
+
+</head>
+
+
+
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <p><input type="file" id="myfile" name="myfile" size="30" onchange="doTest()"></p>
+           <img id="uploadPreview" src="" width="100%" style="display:none" />
+          <div class=" w3-container w3-text-black">
+            <h2><input name="name1" placeholder="Enter Name" size=""></input></h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>
+            <input name="prof" placeholder="Profession" size=""></input></p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>
+            <input name="add1" placeholder="Address" size=""></input></p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>
+            <input name="mail1" placeholder="Email Address" size=""></input></p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>
+            <input name="mob1" placeholder="Mobile No. " size=""></input></p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p><input name="skill1" placeholder="Skill1" size=""></input></p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+                     </div>
+          <p><input name="skill2" placeholder="Skill2" size=""></input></p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            </div>
+          <p><input name="skill3" placeholder="Skill3" size=""></input></p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+          </div>
+          <p><input name="skill4" placeholder="Skill4" size=""></input></p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p><input name="lang1" placeholder="Language1" size=""></input></p>
+          <div class="w3-light-grey w3-round-xlarge">
+          </div>
+          <p><input name="lang2" placeholder="Language2" size=""></input></p>
+          <div class="w3-light-grey w3-round-xlarge">
+          </div>
+          <p><input name="lang3" placeholder="Language3" size=""></input></p>
+          <div class="w3-light-grey w3-round-xlarge">
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b><input name="post1" placeholder="Post & Company Name" size=""></input></b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><input name="dur1" placeholder="Duration" size=""></input></h6>
+          <p><textarea name="detail1" placeholder="Short Description" rows="" cols="90" ></textarea></p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b><input name="post2" placeholder="Post & Company Name" size=""></input></b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><input name="dur2" placeholder="Duration" size=""></input></h6>
+          <p><textarea name="detail2" placeholder="Short Description" rows="" cols="90" ></textarea></p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b><input name="post3" placeholder="Post & Company Name" size=""></input></b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><input name="dur3" placeholder="Duration" size=""></input></h6>
+          <p><textarea name="detail3" placeholder="Short Description" rows="" cols="90" ></textarea></p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b><input name="institute1" placeholder="Institute" size="40"></input></b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><input name="dur1" placeholder="Duration" size=""></input></h6>
+          <p><input name="edu1" placeholder="Details" size="80"></input></p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b><input name="institute2" placeholder="Institute" size="40"></input></b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><input name="dur2" placeholder="Duration" size=""></input></h6>
+          <p><input name="edu2" placeholder="Details" size="80"></input></p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b><input name="institute3" placeholder="Institute" size="40"></input></b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><input name="dur3" placeholder="Duration" size=""></input></h6>
+          <p><input name="edu3" placeholder="Details" size="80"></input></p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by FUBAR</p>
+</footer>
+
+
+<div></div></body></html>
